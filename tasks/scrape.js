@@ -1,5 +1,5 @@
 var grunt = require('grunt');
-var Scraper = require('grunt-scrape');
+var Scraper = require('node-scrape');
 
 module.exports = function(grunt) {
 
