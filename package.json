@@ -1,7 +1,7 @@
 {
-  "name": "scrape",
+  "name": "grunt-scrape",
   "description": "Grunt wrapper around scrape plugin.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Daniel Eissing",
     "email": "daniel.eissing@gmx.net"
@@ -12,15 +12,10 @@
   "main": "./index",
   "repository": {
     "type": "git",
-    "url": "tbd"
+    "url": "https://github.com/chunksnbits/grunt-scrape.git"
   },
   "dependencies": {
-    "cheerio": "^0.17.0",
-    "easyxml": "0.0.5",
-    "fs.extra": "^1.2.1",
-    "json-2-csv": "^0.1.4",
-    "lodash": "^2.4.1",
-    "q": "^1.0.1",
-    "request": "^2.40.0"
+    "grunt": "^0.4.5",
+    "node-scrape": "^0.0.1"
   }
 }
