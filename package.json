@@ -1,7 +1,7 @@
 {
   "name": "grunt-scrape",
   "description": "Grunt wrapper around scrape plugin.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": {
     "name": "Daniel Eissing",
     "email": "daniel.eissing@gmx.net"
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "grunt": "^0.4.5",
-    "node-scrape": "^0.0.1"
+    "node-scrape": "^0.0.2",
+    "node-exporter": "^0.0.1"
   }
 }
