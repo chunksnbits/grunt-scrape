@@ -1,11 +1,20 @@
 var grunt = require('grunt');
+var _ = require('lodash');
 var Scraper = require('node-scrape');
 var Exporter = require('node-exporter');
 
 module.exports = function(grunt) {
 
   grunt.registerMultiTask('scrape', 'Extract data from web pages.', function() {
+
     var config = this.data;
+
+    _.each(config, function(param, key) {
+      if (_.isFunction(param)) {
+        config[key] = param();
+      }
+    });
+
     var done = this.async();
 
     grunt.verbose.writeln('[log] Scraping data from: ' + config.src + '');

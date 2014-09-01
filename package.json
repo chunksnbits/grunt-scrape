@@ -17,6 +17,7 @@
   "dependencies": {
     "grunt": "^0.4.5",
     "node-scrape": "^0.1.0",
-    "node-exporter": "^0.1.0"
+    "node-exporter": "^0.1.0",
+    "lodash": "^2.4.1"
   }
 }
