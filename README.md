@@ -1,3 +1,8 @@
+#### *DEPRECATED (This plugin is no longer maintained*
+#### Archive:
+
+---
+
 # grunt-scrape v.0.1.0
 
 A grunt wrapper around [node-scrape plugin](https://github.com/chunksnbits/node-scrape).
